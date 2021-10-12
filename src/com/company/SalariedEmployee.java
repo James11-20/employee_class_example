@@ -1,4 +1,4 @@
-package comp.comp152;
+package com.company;
 
 public class SalariedEmployee extends Employee{
     private double yearlySalary;

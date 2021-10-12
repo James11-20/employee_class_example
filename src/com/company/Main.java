@@ -1,9 +1,5 @@
 package com.company;
 
-public class Main {
-
-    package comp.comp152;
-
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -18,7 +14,7 @@ import java.util.Random;
             //add more as needed here
 
             for(var emp : allEmployees){
-                System.out.println("Paying a "+ emp.getClass().getName() + " $"+emp.calculateBiWeeklyPay());
+                System.out.println("Paying a "+ newEmployee.getClass().getName() + " $"+ newEmployee.calculateBiWeeklyPay());
             }
 //	WeekDay deliveryDay = WeekDay.Friday;
 //	var picker = new Random();
@@ -27,5 +23,3 @@ import java.util.Random;
 //	System.out.println("Your delivery will happen on "+deliveryDay);
         }
     }
-    }
-}

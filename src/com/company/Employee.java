@@ -1,4 +1,4 @@
-package comp.comp152;
+package com.company;
 
     public abstract class Employee {
         public void fileW2Forms(){
@@ -11,4 +11,3 @@ package comp.comp152;
             System.out.println("Now withholding "+ calculateBiWeeklyPay()*.2 + " in taxes");
         }
     }
-}

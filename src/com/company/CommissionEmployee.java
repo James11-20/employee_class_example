@@ -1,4 +1,4 @@
-package comp.comp152;
+package com.company;
 
 public class CommissionEmployee extends Employee{
     private int numberOfSales;
